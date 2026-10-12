@@ -1,0 +1,3421 @@
+{
+ "done_ms": 835.3,
+ "status": "done in 835 ms, page protocol: h2, scripts run: 50",
+ "requests": [
+  {
+   "url": "/",
+   "type": "Document",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 0.0,
+   "queueing_ms": 1.1,
+   "stalled_ms": 0,
+   "blocked_ms": 1.1,
+   "ttfb_ms": 4.9,
+   "total_ms": 15.1
+  },
+  {
+   "url": "/static/js/mod0.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 19.0,
+   "queueing_ms": 0.6,
+   "stalled_ms": 0.3,
+   "blocked_ms": 0.9,
+   "ttfb_ms": 183.9,
+   "total_ms": 185.2
+  },
+  {
+   "url": "/static/js/mod1.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 19.3,
+   "queueing_ms": 1.3,
+   "stalled_ms": 0.3,
+   "blocked_ms": 1.6,
+   "ttfb_ms": 157.0,
+   "total_ms": 159.1
+  },
+  {
+   "url": "/static/js/mod2.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 19.5,
+   "queueing_ms": 11.2,
+   "stalled_ms": 0.3,
+   "blocked_ms": 11.5,
+   "ttfb_ms": 217.8,
+   "total_ms": 229.5
+  },
+  {
+   "url": "/static/js/mod3.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 19.5,
+   "queueing_ms": 13.4,
+   "stalled_ms": 1.7,
+   "blocked_ms": 15.1,
+   "ttfb_ms": 162.7,
+   "total_ms": 178.3
+  },
+  {
+   "url": "/static/js/mod4.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 19.6,
+   "queueing_ms": 13.6,
+   "stalled_ms": 4.9,
+   "blocked_ms": 18.4,
+   "ttfb_ms": 395.1,
+   "total_ms": 413.8
+  },
+  {
+   "url": "/static/js/mod5.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 19.6,
+   "queueing_ms": 13.7,
+   "stalled_ms": 6.3,
+   "blocked_ms": 20.1,
+   "ttfb_ms": 249.7,
+   "total_ms": 270.1
+  },
+  {
+   "url": "/static/js/mod6.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 19.7,
+   "queueing_ms": 13.9,
+   "stalled_ms": 9.1,
+   "blocked_ms": 22.9,
+   "ttfb_ms": 135.9,
+   "total_ms": 159.0
+  },
+  {
+   "url": "/static/js/mod7.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 19.8,
+   "queueing_ms": 14.0,
+   "stalled_ms": 10.2,
+   "blocked_ms": 24.2,
+   "ttfb_ms": 284.9,
+   "total_ms": 309.4
+  },
+  {
+   "url": "/static/js/mod8.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 19.8,
+   "queueing_ms": 14.2,
+   "stalled_ms": 11.3,
+   "blocked_ms": 25.5,
+   "ttfb_ms": 178.3,
+   "total_ms": 204.1
+  },
+  {
+   "url": "/static/js/mod9.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 19.9,
+   "queueing_ms": 14.3,
+   "stalled_ms": 12.5,
+   "blocked_ms": 26.8,
+   "ttfb_ms": 246.9,
+   "total_ms": 274.0
+  },
+  {
+   "url": "/static/js/mod10.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 19.9,
+   "queueing_ms": 14.5,
+   "stalled_ms": 16.8,
+   "blocked_ms": 31.3,
+   "ttfb_ms": 140.0,
+   "total_ms": 171.7
+  },
+  {
+   "url": "/static/js/mod11.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 20.0,
+   "queueing_ms": 14.8,
+   "stalled_ms": 19.0,
+   "blocked_ms": 33.8,
+   "ttfb_ms": 157.9,
+   "total_ms": 192.0
+  },
+  {
+   "url": "/static/js/mod12.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 20.0,
+   "queueing_ms": 15.0,
+   "stalled_ms": 22.9,
+   "blocked_ms": 37.9,
+   "ttfb_ms": 415.6,
+   "total_ms": 453.7
+  },
+  {
+   "url": "/static/js/mod13.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 20.1,
+   "queueing_ms": 16.4,
+   "stalled_ms": 23.7,
+   "blocked_ms": 40.1,
+   "ttfb_ms": 436.9,
+   "total_ms": 477.2
+  },
+  {
+   "url": "/static/js/mod14.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 20.1,
+   "queueing_ms": 16.8,
+   "stalled_ms": 25.8,
+   "blocked_ms": 42.6,
+   "ttfb_ms": 268.5,
+   "total_ms": 311.3
+  },
+  {
+   "url": "/static/js/mod15.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 20.2,
+   "queueing_ms": 17.1,
+   "stalled_ms": 27.7,
+   "blocked_ms": 44.8,
+   "ttfb_ms": 350.3,
+   "total_ms": 395.4
+  },
+  {
+   "url": "/static/js/mod16.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 20.3,
+   "queueing_ms": 17.4,
+   "stalled_ms": 29.0,
+   "blocked_ms": 46.4,
+   "ttfb_ms": 322.2,
+   "total_ms": 368.9
+  },
+  {
+   "url": "/static/js/mod17.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 20.3,
+   "queueing_ms": 17.8,
+   "stalled_ms": 30.3,
+   "blocked_ms": 48.1,
+   "ttfb_ms": 449.2,
+   "total_ms": 497.7
+  },
+  {
+   "url": "/static/js/mod18.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 20.4,
+   "queueing_ms": 18.2,
+   "stalled_ms": 31.7,
+   "blocked_ms": 49.9,
+   "ttfb_ms": 207.7,
+   "total_ms": 257.9
+  },
+  {
+   "url": "/static/js/mod19.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 20.4,
+   "queueing_ms": 18.4,
+   "stalled_ms": 34.1,
+   "blocked_ms": 52.5,
+   "ttfb_ms": 261.0,
+   "total_ms": 317.7
+  },
+  {
+   "url": "/static/js/mod20.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 20.5,
+   "queueing_ms": 18.6,
+   "stalled_ms": 37.1,
+   "blocked_ms": 55.7,
+   "ttfb_ms": 270.0,
+   "total_ms": 326.1
+  },
+  {
+   "url": "/static/js/mod21.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 20.5,
+   "queueing_ms": 18.8,
+   "stalled_ms": 38.6,
+   "blocked_ms": 57.4,
+   "ttfb_ms": 391.0,
+   "total_ms": 448.6
+  },
+  {
+   "url": "/static/js/mod22.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 20.6,
+   "queueing_ms": 18.9,
+   "stalled_ms": 39.9,
+   "blocked_ms": 58.8,
+   "ttfb_ms": 374.8,
+   "total_ms": 434.0
+  },
+  {
+   "url": "/static/js/mod23.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 20.6,
+   "queueing_ms": 19.3,
+   "stalled_ms": 41.1,
+   "blocked_ms": 60.4,
+   "ttfb_ms": 159.7,
+   "total_ms": 220.3
+  },
+  {
+   "url": "/static/js/mod24.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 20.6,
+   "queueing_ms": 19.5,
+   "stalled_ms": 42.3,
+   "blocked_ms": 61.8,
+   "ttfb_ms": 319.9,
+   "total_ms": 381.9
+  },
+  {
+   "url": "/static/js/mod25.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 20.7,
+   "queueing_ms": 19.7,
+   "stalled_ms": 43.7,
+   "blocked_ms": 63.5,
+   "ttfb_ms": 230.5,
+   "total_ms": 294.3
+  },
+  {
+   "url": "/static/js/mod26.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 20.7,
+   "queueing_ms": 21.0,
+   "stalled_ms": 44.0,
+   "blocked_ms": 65.0,
+   "ttfb_ms": 240.9,
+   "total_ms": 306.2
+  },
+  {
+   "url": "/static/js/mod27.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 20.8,
+   "queueing_ms": 21.2,
+   "stalled_ms": 45.3,
+   "blocked_ms": 66.5,
+   "ttfb_ms": 393.6,
+   "total_ms": 460.3
+  },
+  {
+   "url": "/static/js/mod28.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 20.8,
+   "queueing_ms": 21.4,
+   "stalled_ms": 46.5,
+   "blocked_ms": 67.9,
+   "ttfb_ms": 444.4,
+   "total_ms": 512.6
+  },
+  {
+   "url": "/static/js/mod29.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 20.8,
+   "queueing_ms": 21.5,
+   "stalled_ms": 46.9,
+   "blocked_ms": 68.4,
+   "ttfb_ms": 207.8,
+   "total_ms": 276.5
+  },
+  {
+   "url": "/static/js/mod30.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 20.9,
+   "queueing_ms": 21.6,
+   "stalled_ms": 47.0,
+   "blocked_ms": 68.6,
+   "ttfb_ms": 269.2,
+   "total_ms": 338.1
+  },
+  {
+   "url": "/static/js/mod31.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 20.9,
+   "queueing_ms": 21.8,
+   "stalled_ms": 46.8,
+   "blocked_ms": 68.7,
+   "ttfb_ms": 303.7,
+   "total_ms": 372.6
+  },
+  {
+   "url": "/static/js/mod32.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.0,
+   "queueing_ms": 22.0,
+   "stalled_ms": 46.7,
+   "blocked_ms": 68.7,
+   "ttfb_ms": 289.5,
+   "total_ms": 358.6
+  },
+  {
+   "url": "/static/js/mod33.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.1,
+   "queueing_ms": 22.1,
+   "stalled_ms": 46.6,
+   "blocked_ms": 68.7,
+   "ttfb_ms": 408.3,
+   "total_ms": 477.2
+  },
+  {
+   "url": "/static/js/mod34.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.1,
+   "queueing_ms": 22.2,
+   "stalled_ms": 46.5,
+   "blocked_ms": 68.7,
+   "ttfb_ms": 344.2,
+   "total_ms": 413.2
+  },
+  {
+   "url": "/static/js/mod35.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.2,
+   "queueing_ms": 22.4,
+   "stalled_ms": 46.4,
+   "blocked_ms": 68.7,
+   "ttfb_ms": 284.8,
+   "total_ms": 353.8
+  },
+  {
+   "url": "/static/js/mod36.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.2,
+   "queueing_ms": 22.5,
+   "stalled_ms": 46.2,
+   "blocked_ms": 68.8,
+   "ttfb_ms": 180.7,
+   "total_ms": 249.7
+  },
+  {
+   "url": "/static/js/mod37.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.2,
+   "queueing_ms": 22.8,
+   "stalled_ms": 46.0,
+   "blocked_ms": 68.8,
+   "ttfb_ms": 248.2,
+   "total_ms": 317.3
+  },
+  {
+   "url": "/static/js/mod38.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.3,
+   "queueing_ms": 23.0,
+   "stalled_ms": 45.9,
+   "blocked_ms": 68.9,
+   "ttfb_ms": 243.2,
+   "total_ms": 312.5
+  },
+  {
+   "url": "/static/js/mod39.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.3,
+   "queueing_ms": 23.2,
+   "stalled_ms": 45.8,
+   "blocked_ms": 69.0,
+   "ttfb_ms": 173.0,
+   "total_ms": 242.3
+  },
+  {
+   "url": "/static/js/mod40.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.4,
+   "queueing_ms": 23.4,
+   "stalled_ms": 45.6,
+   "blocked_ms": 69.0,
+   "ttfb_ms": 176.7,
+   "total_ms": 246.0
+  },
+  {
+   "url": "/static/js/mod41.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.4,
+   "queueing_ms": 23.5,
+   "stalled_ms": 45.5,
+   "blocked_ms": 69.1,
+   "ttfb_ms": 264.9,
+   "total_ms": 334.2
+  },
+  {
+   "url": "/static/js/mod42.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.4,
+   "queueing_ms": 23.7,
+   "stalled_ms": 45.4,
+   "blocked_ms": 69.1,
+   "ttfb_ms": 466.4,
+   "total_ms": 535.7
+  },
+  {
+   "url": "/static/js/mod43.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.5,
+   "queueing_ms": 24.0,
+   "stalled_ms": 45.2,
+   "blocked_ms": 69.2,
+   "ttfb_ms": 372.6,
+   "total_ms": 442.1
+  },
+  {
+   "url": "/static/js/mod44.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.5,
+   "queueing_ms": 24.2,
+   "stalled_ms": 45.0,
+   "blocked_ms": 69.2,
+   "ttfb_ms": 343.8,
+   "total_ms": 413.2
+  },
+  {
+   "url": "/static/js/mod45.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.5,
+   "queueing_ms": 24.3,
+   "stalled_ms": 44.9,
+   "blocked_ms": 69.2,
+   "ttfb_ms": 467.7,
+   "total_ms": 537.2
+  },
+  {
+   "url": "/static/js/mod46.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.6,
+   "queueing_ms": 24.5,
+   "stalled_ms": 44.7,
+   "blocked_ms": 69.3,
+   "ttfb_ms": 430.8,
+   "total_ms": 500.4
+  },
+  {
+   "url": "/static/js/mod47.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.6,
+   "queueing_ms": 24.7,
+   "stalled_ms": 44.6,
+   "blocked_ms": 69.3,
+   "ttfb_ms": 199.1,
+   "total_ms": 268.6
+  },
+  {
+   "url": "/static/js/mod48.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.7,
+   "queueing_ms": 24.9,
+   "stalled_ms": 44.5,
+   "blocked_ms": 69.3,
+   "ttfb_ms": 296.1,
+   "total_ms": 365.7
+  },
+  {
+   "url": "/static/js/mod49.js",
+   "type": "Script",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.7,
+   "queueing_ms": 25.1,
+   "stalled_ms": 44.2,
+   "blocked_ms": 69.4,
+   "ttfb_ms": 275.1,
+   "total_ms": 344.7
+  },
+  {
+   "url": "/static/img/i0.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.8,
+   "queueing_ms": 25.3,
+   "stalled_ms": 44.1,
+   "blocked_ms": 69.4,
+   "ttfb_ms": 254.0,
+   "total_ms": 323.7
+  },
+  {
+   "url": "/static/img/i1.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.8,
+   "queueing_ms": 28.4,
+   "stalled_ms": 41.0,
+   "blocked_ms": 69.4,
+   "ttfb_ms": 187.2,
+   "total_ms": 256.8
+  },
+  {
+   "url": "/static/img/i2.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.8,
+   "queueing_ms": 28.7,
+   "stalled_ms": 40.8,
+   "blocked_ms": 69.4,
+   "ttfb_ms": 229.3,
+   "total_ms": 299.0
+  },
+  {
+   "url": "/static/img/i3.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.9,
+   "queueing_ms": 28.9,
+   "stalled_ms": 40.6,
+   "blocked_ms": 69.4,
+   "ttfb_ms": 325.7,
+   "total_ms": 395.3
+  },
+  {
+   "url": "/static/img/i4.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 21.9,
+   "queueing_ms": 29.1,
+   "stalled_ms": 40.4,
+   "blocked_ms": 69.5,
+   "ttfb_ms": 399.1,
+   "total_ms": 468.8
+  },
+  {
+   "url": "/static/img/i5.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 22.0,
+   "queueing_ms": 29.4,
+   "stalled_ms": 40.1,
+   "blocked_ms": 69.5,
+   "ttfb_ms": 468.1,
+   "total_ms": 537.8
+  },
+  {
+   "url": "/static/img/i6.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 22.0,
+   "queueing_ms": 29.6,
+   "stalled_ms": 40.0,
+   "blocked_ms": 69.5,
+   "ttfb_ms": 318.7,
+   "total_ms": 388.4
+  },
+  {
+   "url": "/static/img/i7.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 22.1,
+   "queueing_ms": 29.8,
+   "stalled_ms": 39.8,
+   "blocked_ms": 69.6,
+   "ttfb_ms": 183.0,
+   "total_ms": 252.8
+  },
+  {
+   "url": "/static/img/i8.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 22.1,
+   "queueing_ms": 30.3,
+   "stalled_ms": 39.3,
+   "blocked_ms": 69.6,
+   "ttfb_ms": 353.2,
+   "total_ms": 423.0
+  },
+  {
+   "url": "/static/img/i9.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 22.1,
+   "queueing_ms": 30.5,
+   "stalled_ms": 39.1,
+   "blocked_ms": 69.7,
+   "ttfb_ms": 301.9,
+   "total_ms": 371.8
+  },
+  {
+   "url": "/static/img/i10.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 22.2,
+   "queueing_ms": 30.7,
+   "stalled_ms": 39.0,
+   "blocked_ms": 69.7,
+   "ttfb_ms": 463.3,
+   "total_ms": 533.2
+  },
+  {
+   "url": "/static/img/i11.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 22.2,
+   "queueing_ms": 30.8,
+   "stalled_ms": 38.9,
+   "blocked_ms": 69.7,
+   "ttfb_ms": 237.4,
+   "total_ms": 307.3
+  },
+  {
+   "url": "/static/img/i12.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 22.3,
+   "queueing_ms": 31.1,
+   "stalled_ms": 38.6,
+   "blocked_ms": 69.7,
+   "ttfb_ms": 186.8,
+   "total_ms": 256.6
+  },
+  {
+   "url": "/static/img/i13.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 22.3,
+   "queueing_ms": 31.2,
+   "stalled_ms": 38.5,
+   "blocked_ms": 69.7,
+   "ttfb_ms": 431.9,
+   "total_ms": 501.9
+  },
+  {
+   "url": "/static/img/i14.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 22.4,
+   "queueing_ms": 31.5,
+   "stalled_ms": 40.4,
+   "blocked_ms": 71.9,
+   "ttfb_ms": 316.4,
+   "total_ms": 388.5
+  },
+  {
+   "url": "/static/img/i15.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 22.5,
+   "queueing_ms": 31.8,
+   "stalled_ms": 40.2,
+   "blocked_ms": 71.9,
+   "ttfb_ms": 458.6,
+   "total_ms": 530.7
+  },
+  {
+   "url": "/static/img/i16.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 22.5,
+   "queueing_ms": 32.0,
+   "stalled_ms": 40.0,
+   "blocked_ms": 72.0,
+   "ttfb_ms": 457.1,
+   "total_ms": 529.4
+  },
+  {
+   "url": "/static/img/i17.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 22.6,
+   "queueing_ms": 33.6,
+   "stalled_ms": 38.4,
+   "blocked_ms": 72.0,
+   "ttfb_ms": 388.7,
+   "total_ms": 460.8
+  },
+  {
+   "url": "/static/img/i18.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 22.6,
+   "queueing_ms": 34.6,
+   "stalled_ms": 37.5,
+   "blocked_ms": 72.1,
+   "ttfb_ms": 287.9,
+   "total_ms": 360.2
+  },
+  {
+   "url": "/static/img/i19.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 22.6,
+   "queueing_ms": 34.9,
+   "stalled_ms": 37.2,
+   "blocked_ms": 72.1,
+   "ttfb_ms": 236.8,
+   "total_ms": 309.2
+  },
+  {
+   "url": "/static/img/i20.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 22.7,
+   "queueing_ms": 35.4,
+   "stalled_ms": 36.8,
+   "blocked_ms": 72.2,
+   "ttfb_ms": 366.8,
+   "total_ms": 439.2
+  },
+  {
+   "url": "/static/img/i21.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 22.7,
+   "queueing_ms": 35.6,
+   "stalled_ms": 36.6,
+   "blocked_ms": 72.2,
+   "ttfb_ms": 189.6,
+   "total_ms": 262.1
+  },
+  {
+   "url": "/static/img/i22.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 22.8,
+   "queueing_ms": 35.9,
+   "stalled_ms": 36.3,
+   "blocked_ms": 72.2,
+   "ttfb_ms": 451.7,
+   "total_ms": 524.2
+  },
+  {
+   "url": "/static/img/i23.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 22.8,
+   "queueing_ms": 36.2,
+   "stalled_ms": 36.1,
+   "blocked_ms": 72.3,
+   "ttfb_ms": 309.5,
+   "total_ms": 382.0
+  },
+  {
+   "url": "/static/img/i24.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 22.8,
+   "queueing_ms": 36.5,
+   "stalled_ms": 35.8,
+   "blocked_ms": 72.3,
+   "ttfb_ms": 415.1,
+   "total_ms": 487.7
+  },
+  {
+   "url": "/static/img/i25.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 22.9,
+   "queueing_ms": 36.9,
+   "stalled_ms": 35.4,
+   "blocked_ms": 72.3,
+   "ttfb_ms": 427.0,
+   "total_ms": 499.6
+  },
+  {
+   "url": "/static/img/i26.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 22.9,
+   "queueing_ms": 37.5,
+   "stalled_ms": 34.9,
+   "blocked_ms": 72.4,
+   "ttfb_ms": 444.6,
+   "total_ms": 517.2
+  },
+  {
+   "url": "/static/img/i27.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 23.0,
+   "queueing_ms": 37.9,
+   "stalled_ms": 34.6,
+   "blocked_ms": 72.4,
+   "ttfb_ms": 222.3,
+   "total_ms": 295.0
+  },
+  {
+   "url": "/static/img/i28.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 23.0,
+   "queueing_ms": 38.2,
+   "stalled_ms": 34.3,
+   "blocked_ms": 72.5,
+   "ttfb_ms": 293.8,
+   "total_ms": 366.5
+  },
+  {
+   "url": "/static/img/i29.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 23.0,
+   "queueing_ms": 38.6,
+   "stalled_ms": 34.0,
+   "blocked_ms": 72.5,
+   "ttfb_ms": 330.0,
+   "total_ms": 402.8
+  },
+  {
+   "url": "/static/img/i30.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 23.1,
+   "queueing_ms": 38.9,
+   "stalled_ms": 33.6,
+   "blocked_ms": 72.5,
+   "ttfb_ms": 446.7,
+   "total_ms": 519.5
+  },
+  {
+   "url": "/static/img/i31.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 23.2,
+   "queueing_ms": 39.1,
+   "stalled_ms": 33.3,
+   "blocked_ms": 72.5,
+   "ttfb_ms": 371.6,
+   "total_ms": 444.3
+  },
+  {
+   "url": "/static/img/i32.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 23.3,
+   "queueing_ms": 39.7,
+   "stalled_ms": 32.8,
+   "blocked_ms": 72.5,
+   "ttfb_ms": 350.7,
+   "total_ms": 423.4
+  },
+  {
+   "url": "/static/img/i33.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 23.3,
+   "queueing_ms": 39.9,
+   "stalled_ms": 32.6,
+   "blocked_ms": 72.5,
+   "ttfb_ms": 386.3,
+   "total_ms": 459.0
+  },
+  {
+   "url": "/static/img/i34.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 23.4,
+   "queueing_ms": 40.1,
+   "stalled_ms": 32.4,
+   "blocked_ms": 72.6,
+   "ttfb_ms": 423.6,
+   "total_ms": 496.5
+  },
+  {
+   "url": "/static/img/i35.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 23.4,
+   "queueing_ms": 40.3,
+   "stalled_ms": 32.3,
+   "blocked_ms": 72.6,
+   "ttfb_ms": 315.1,
+   "total_ms": 387.9
+  },
+  {
+   "url": "/static/img/i36.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 23.5,
+   "queueing_ms": 40.5,
+   "stalled_ms": 32.1,
+   "blocked_ms": 72.6,
+   "ttfb_ms": 349.2,
+   "total_ms": 422.1
+  },
+  {
+   "url": "/static/img/i37.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 23.5,
+   "queueing_ms": 40.7,
+   "stalled_ms": 31.9,
+   "blocked_ms": 72.7,
+   "ttfb_ms": 222.0,
+   "total_ms": 294.9
+  },
+  {
+   "url": "/static/img/i38.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 23.6,
+   "queueing_ms": 41.6,
+   "stalled_ms": 31.2,
+   "blocked_ms": 72.8,
+   "ttfb_ms": 432.2,
+   "total_ms": 505.3
+  },
+  {
+   "url": "/static/img/i39.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 23.6,
+   "queueing_ms": 41.8,
+   "stalled_ms": 31.0,
+   "blocked_ms": 72.8,
+   "ttfb_ms": 320.1,
+   "total_ms": 393.2
+  },
+  {
+   "url": "/static/img/i40.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 23.7,
+   "queueing_ms": 42.0,
+   "stalled_ms": 30.9,
+   "blocked_ms": 72.9,
+   "ttfb_ms": 275.0,
+   "total_ms": 348.1
+  },
+  {
+   "url": "/static/img/i41.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 23.7,
+   "queueing_ms": 42.2,
+   "stalled_ms": 30.7,
+   "blocked_ms": 72.9,
+   "ttfb_ms": 421.7,
+   "total_ms": 494.9
+  },
+  {
+   "url": "/static/img/i42.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 23.9,
+   "queueing_ms": 42.4,
+   "stalled_ms": 30.5,
+   "blocked_ms": 72.9,
+   "ttfb_ms": 205.5,
+   "total_ms": 278.6
+  },
+  {
+   "url": "/static/img/i43.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 23.9,
+   "queueing_ms": 42.5,
+   "stalled_ms": 30.4,
+   "blocked_ms": 72.9,
+   "ttfb_ms": 272.1,
+   "total_ms": 345.2
+  },
+  {
+   "url": "/static/img/i44.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 24.0,
+   "queueing_ms": 42.9,
+   "stalled_ms": 30.0,
+   "blocked_ms": 72.9,
+   "ttfb_ms": 298.5,
+   "total_ms": 371.7
+  },
+  {
+   "url": "/static/img/i45.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 24.0,
+   "queueing_ms": 43.2,
+   "stalled_ms": 29.7,
+   "blocked_ms": 72.9,
+   "ttfb_ms": 305.9,
+   "total_ms": 379.0
+  },
+  {
+   "url": "/static/img/i46.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 24.1,
+   "queueing_ms": 43.4,
+   "stalled_ms": 29.5,
+   "blocked_ms": 72.9,
+   "ttfb_ms": 400.6,
+   "total_ms": 473.8
+  },
+  {
+   "url": "/static/img/i47.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 24.1,
+   "queueing_ms": 43.6,
+   "stalled_ms": 29.3,
+   "blocked_ms": 72.9,
+   "ttfb_ms": 372.2,
+   "total_ms": 445.3
+  },
+  {
+   "url": "/static/img/i48.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 24.2,
+   "queueing_ms": 43.8,
+   "stalled_ms": 29.2,
+   "blocked_ms": 73.0,
+   "ttfb_ms": 390.0,
+   "total_ms": 463.2
+  },
+  {
+   "url": "/static/img/i49.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 24.2,
+   "queueing_ms": 44.0,
+   "stalled_ms": 29.0,
+   "blocked_ms": 73.0,
+   "ttfb_ms": 382.2,
+   "total_ms": 455.5
+  },
+  {
+   "url": "/static/img/i50.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 24.2,
+   "queueing_ms": 44.4,
+   "stalled_ms": 348.7,
+   "blocked_ms": 393.1,
+   "ttfb_ms": 379.1,
+   "total_ms": 772.4
+  },
+  {
+   "url": "/static/img/i51.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 24.3,
+   "queueing_ms": 44.6,
+   "stalled_ms": 348.5,
+   "blocked_ms": 393.1,
+   "ttfb_ms": 293.3,
+   "total_ms": 686.8
+  },
+  {
+   "url": "/static/img/i52.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 24.3,
+   "queueing_ms": 44.9,
+   "stalled_ms": 376.7,
+   "blocked_ms": 421.6,
+   "ttfb_ms": 297.5,
+   "total_ms": 719.3
+  },
+  {
+   "url": "/static/img/i53.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 24.3,
+   "queueing_ms": 45.2,
+   "stalled_ms": 356.5,
+   "blocked_ms": 401.7,
+   "ttfb_ms": 362.9,
+   "total_ms": 764.8
+  },
+  {
+   "url": "/static/img/i54.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 24.4,
+   "queueing_ms": 45.4,
+   "stalled_ms": 365.1,
+   "blocked_ms": 410.5,
+   "ttfb_ms": 134.0,
+   "total_ms": 544.7
+  },
+  {
+   "url": "/static/img/i55.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 24.4,
+   "queueing_ms": 45.6,
+   "stalled_ms": 364.9,
+   "blocked_ms": 410.5,
+   "ttfb_ms": 382.8,
+   "total_ms": 793.7
+  },
+  {
+   "url": "/static/img/i56.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 24.5,
+   "queueing_ms": 45.9,
+   "stalled_ms": 364.6,
+   "blocked_ms": 410.5,
+   "ttfb_ms": 246.7,
+   "total_ms": 657.5
+  },
+  {
+   "url": "/static/img/i57.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 24.5,
+   "queueing_ms": 46.2,
+   "stalled_ms": 364.4,
+   "blocked_ms": 410.5,
+   "ttfb_ms": 397.8,
+   "total_ms": 808.5
+  },
+  {
+   "url": "/static/img/i58.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 24.6,
+   "queueing_ms": 46.7,
+   "stalled_ms": 365.0,
+   "blocked_ms": 411.8,
+   "ttfb_ms": 288.9,
+   "total_ms": 700.8
+  },
+  {
+   "url": "/static/img/i59.svg",
+   "type": "Image",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 24.6,
+   "queueing_ms": 47.0,
+   "stalled_ms": 374.1,
+   "blocked_ms": 421.2,
+   "ttfb_ms": 341.7,
+   "total_ms": 763.1
+  },
+  {
+   "url": "/api/item/0?t=1791534395961",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 32.9,
+   "queueing_ms": 39.0,
+   "stalled_ms": 107.0,
+   "blocked_ms": 146.0,
+   "ttfb_ms": 169.9,
+   "total_ms": 316.1
+  },
+  {
+   "url": "/api/item/1?t=1791534395961",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 33.0,
+   "queueing_ms": 39.2,
+   "stalled_ms": 106.8,
+   "blocked_ms": 146.0,
+   "ttfb_ms": 142.9,
+   "total_ms": 289.3
+  },
+  {
+   "url": "/api/item/2?t=1791534395961",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 33.1,
+   "queueing_ms": 40.1,
+   "stalled_ms": 338.2,
+   "blocked_ms": 378.3,
+   "ttfb_ms": 397.2,
+   "total_ms": 775.7
+  },
+  {
+   "url": "/api/item/3?t=1791534395961",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 33.1,
+   "queueing_ms": 40.4,
+   "stalled_ms": 118.3,
+   "blocked_ms": 158.7,
+   "ttfb_ms": 295.9,
+   "total_ms": 454.7
+  },
+  {
+   "url": "/api/item/4?t=1791534395961",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 33.2,
+   "queueing_ms": 40.7,
+   "stalled_ms": 124.2,
+   "blocked_ms": 164.9,
+   "ttfb_ms": 334.4,
+   "total_ms": 499.5
+  },
+  {
+   "url": "/api/item/5?t=1791534395961",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 33.2,
+   "queueing_ms": 41.5,
+   "stalled_ms": 129.7,
+   "blocked_ms": 171.1,
+   "ttfb_ms": 273.4,
+   "total_ms": 444.8
+  },
+  {
+   "url": "/api/item/6?t=1791534395961",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 33.3,
+   "queueing_ms": 41.8,
+   "stalled_ms": 137.1,
+   "blocked_ms": 178.9,
+   "ttfb_ms": 275.9,
+   "total_ms": 454.9
+  },
+  {
+   "url": "/api/item/7?t=1791534395962",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 33.4,
+   "queueing_ms": 42.0,
+   "stalled_ms": 148.8,
+   "blocked_ms": 190.8,
+   "ttfb_ms": 318.6,
+   "total_ms": 509.6
+  },
+  {
+   "url": "/api/item/8?t=1791534395962",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 33.5,
+   "queueing_ms": 42.2,
+   "stalled_ms": 165.5,
+   "blocked_ms": 207.6,
+   "ttfb_ms": 356.1,
+   "total_ms": 564.0
+  },
+  {
+   "url": "/api/item/9?t=1791534395962",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 33.5,
+   "queueing_ms": 42.4,
+   "stalled_ms": 173.3,
+   "blocked_ms": 215.7,
+   "ttfb_ms": 276.2,
+   "total_ms": 492.2
+  },
+  {
+   "url": "/api/item/10?t=1791534395962",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 33.5,
+   "queueing_ms": 42.8,
+   "stalled_ms": 187.5,
+   "blocked_ms": 230.3,
+   "ttfb_ms": 256.3,
+   "total_ms": 486.8
+  },
+  {
+   "url": "/api/item/11?t=1791534395962",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 33.6,
+   "queueing_ms": 43.0,
+   "stalled_ms": 190.9,
+   "blocked_ms": 233.9,
+   "ttfb_ms": 309.0,
+   "total_ms": 543.1
+  },
+  {
+   "url": "/api/item/12?t=1791534395962",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 33.6,
+   "queueing_ms": 43.2,
+   "stalled_ms": 194.2,
+   "blocked_ms": 237.4,
+   "ttfb_ms": 162.5,
+   "total_ms": 400.2
+  },
+  {
+   "url": "/api/item/13?t=1791534395962",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 33.7,
+   "queueing_ms": 43.4,
+   "stalled_ms": 198.0,
+   "blocked_ms": 241.4,
+   "ttfb_ms": 160.9,
+   "total_ms": 402.5
+  },
+  {
+   "url": "/api/item/14?t=1791534395962",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 33.7,
+   "queueing_ms": 43.6,
+   "stalled_ms": 201.7,
+   "blocked_ms": 245.3,
+   "ttfb_ms": 363.2,
+   "total_ms": 608.8
+  },
+  {
+   "url": "/api/item/15?t=1791534395962",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 33.8,
+   "queueing_ms": 43.7,
+   "stalled_ms": 201.6,
+   "blocked_ms": 245.3,
+   "ttfb_ms": 402.1,
+   "total_ms": 647.7
+  },
+  {
+   "url": "/api/item/16?t=1791534395962",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 33.9,
+   "queueing_ms": 43.9,
+   "stalled_ms": 201.4,
+   "blocked_ms": 245.3,
+   "ttfb_ms": 122.3,
+   "total_ms": 367.8
+  },
+  {
+   "url": "/api/item/17?t=1791534395962",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 34.0,
+   "queueing_ms": 44.1,
+   "stalled_ms": 316.0,
+   "blocked_ms": 360.0,
+   "ttfb_ms": 338.5,
+   "total_ms": 698.8
+  },
+  {
+   "url": "/api/item/18?t=1791534395962",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 34.1,
+   "queueing_ms": 44.2,
+   "stalled_ms": 315.8,
+   "blocked_ms": 360.0,
+   "ttfb_ms": 211.5,
+   "total_ms": 571.7
+  },
+  {
+   "url": "/api/item/19?t=1791534395962",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 34.1,
+   "queueing_ms": 44.3,
+   "stalled_ms": 333.0,
+   "blocked_ms": 377.3,
+   "ttfb_ms": 222.9,
+   "total_ms": 600.5
+  },
+  {
+   "url": "/api/item/20?t=1791534395962",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 34.2,
+   "queueing_ms": 44.5,
+   "stalled_ms": 206.3,
+   "blocked_ms": 250.9,
+   "ttfb_ms": 258.2,
+   "total_ms": 509.3
+  },
+  {
+   "url": "/api/item/21?t=1791534395962",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 34.3,
+   "queueing_ms": 44.7,
+   "stalled_ms": 211.4,
+   "blocked_ms": 256.1,
+   "ttfb_ms": 316.8,
+   "total_ms": 573.0
+  },
+  {
+   "url": "/api/item/22?t=1791534395963",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 34.3,
+   "queueing_ms": 44.9,
+   "stalled_ms": 211.2,
+   "blocked_ms": 256.1,
+   "ttfb_ms": 153.5,
+   "total_ms": 409.9
+  },
+  {
+   "url": "/api/item/23?t=1791534395963",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 34.4,
+   "queueing_ms": 45.1,
+   "stalled_ms": 316.3,
+   "blocked_ms": 361.5,
+   "ttfb_ms": 248.6,
+   "total_ms": 610.3
+  },
+  {
+   "url": "/api/item/24?t=1791534395963",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 34.4,
+   "queueing_ms": 45.3,
+   "stalled_ms": 214.3,
+   "blocked_ms": 259.7,
+   "ttfb_ms": 320.5,
+   "total_ms": 580.4
+  },
+  {
+   "url": "/api/item/25?t=1791534395963",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 34.5,
+   "queueing_ms": 45.5,
+   "stalled_ms": 217.5,
+   "blocked_ms": 263.1,
+   "ttfb_ms": 202.0,
+   "total_ms": 465.2
+  },
+  {
+   "url": "/api/item/26?t=1791534395963",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 34.6,
+   "queueing_ms": 45.7,
+   "stalled_ms": 222.5,
+   "blocked_ms": 268.1,
+   "ttfb_ms": 246.1,
+   "total_ms": 514.5
+  },
+  {
+   "url": "/api/item/27?t=1791534395963",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 34.6,
+   "queueing_ms": 45.9,
+   "stalled_ms": 234.7,
+   "blocked_ms": 280.6,
+   "ttfb_ms": 246.0,
+   "total_ms": 526.7
+  },
+  {
+   "url": "/api/item/28?t=1791534395963",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 34.7,
+   "queueing_ms": 46.1,
+   "stalled_ms": 237.8,
+   "blocked_ms": 283.8,
+   "ttfb_ms": 352.6,
+   "total_ms": 636.7
+  },
+  {
+   "url": "/api/item/29?t=1791534395963",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 34.8,
+   "queueing_ms": 46.4,
+   "stalled_ms": 237.5,
+   "blocked_ms": 283.8,
+   "ttfb_ms": 395.9,
+   "total_ms": 680.0
+  },
+  {
+   "url": "/api/item/30?t=1791534395963",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 34.8,
+   "queueing_ms": 46.5,
+   "stalled_ms": 320.5,
+   "blocked_ms": 367.1,
+   "ttfb_ms": 306.7,
+   "total_ms": 674.0
+  },
+  {
+   "url": "/api/item/31?t=1791534395963",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 34.9,
+   "queueing_ms": 46.7,
+   "stalled_ms": 239.5,
+   "blocked_ms": 286.2,
+   "ttfb_ms": 123.3,
+   "total_ms": 409.7
+  },
+  {
+   "url": "/api/item/32?t=1791534395963",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 35.0,
+   "queueing_ms": 46.8,
+   "stalled_ms": 240.8,
+   "blocked_ms": 287.6,
+   "ttfb_ms": 370.5,
+   "total_ms": 658.2
+  },
+  {
+   "url": "/api/item/33?t=1791534395963",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 35.1,
+   "queueing_ms": 47.0,
+   "stalled_ms": 245.1,
+   "blocked_ms": 292.1,
+   "ttfb_ms": 396.6,
+   "total_ms": 688.9
+  },
+  {
+   "url": "/api/item/34?t=1791534395963",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 35.2,
+   "queueing_ms": 47.1,
+   "stalled_ms": 247.4,
+   "blocked_ms": 294.5,
+   "ttfb_ms": 231.9,
+   "total_ms": 526.5
+  },
+  {
+   "url": "/api/item/35?t=1791534395963",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 35.2,
+   "queueing_ms": 47.4,
+   "stalled_ms": 247.1,
+   "blocked_ms": 294.5,
+   "ttfb_ms": 225.9,
+   "total_ms": 520.5
+  },
+  {
+   "url": "/api/item/36?t=1791534395963",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 35.3,
+   "queueing_ms": 47.5,
+   "stalled_ms": 320.4,
+   "blocked_ms": 367.9,
+   "ttfb_ms": 154.1,
+   "total_ms": 522.2
+  },
+  {
+   "url": "/api/item/37?t=1791534395964",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 35.4,
+   "queueing_ms": 47.8,
+   "stalled_ms": 248.9,
+   "blocked_ms": 296.6,
+   "ttfb_ms": 323.7,
+   "total_ms": 620.5
+  },
+  {
+   "url": "/api/item/38?t=1791534395964",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 35.5,
+   "queueing_ms": 47.9,
+   "stalled_ms": 248.6,
+   "blocked_ms": 296.5,
+   "ttfb_ms": 246.6,
+   "total_ms": 543.3
+  },
+  {
+   "url": "/api/item/39?t=1791534395964",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 35.6,
+   "queueing_ms": 48.1,
+   "stalled_ms": 319.6,
+   "blocked_ms": 367.7,
+   "ttfb_ms": 397.6,
+   "total_ms": 765.6
+  },
+  {
+   "url": "/api/item/40?t=1791534395964",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 35.7,
+   "queueing_ms": 48.3,
+   "stalled_ms": 254.8,
+   "blocked_ms": 303.1,
+   "ttfb_ms": 279.1,
+   "total_ms": 582.5
+  },
+  {
+   "url": "/api/item/41?t=1791534395964",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 35.8,
+   "queueing_ms": 48.6,
+   "stalled_ms": 254.5,
+   "blocked_ms": 303.0,
+   "ttfb_ms": 128.9,
+   "total_ms": 432.1
+  },
+  {
+   "url": "/api/item/42?t=1791534395964",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 35.8,
+   "queueing_ms": 48.8,
+   "stalled_ms": 254.2,
+   "blocked_ms": 303.0,
+   "ttfb_ms": 353.9,
+   "total_ms": 657.1
+  },
+  {
+   "url": "/api/item/43?t=1791534395964",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 36.0,
+   "queueing_ms": 48.9,
+   "stalled_ms": 330.8,
+   "blocked_ms": 379.8,
+   "ttfb_ms": 328.5,
+   "total_ms": 708.4
+  },
+  {
+   "url": "/api/item/44?t=1791534395964",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 36.1,
+   "queueing_ms": 49.0,
+   "stalled_ms": 319.9,
+   "blocked_ms": 368.9,
+   "ttfb_ms": 399.5,
+   "total_ms": 768.7
+  },
+  {
+   "url": "/api/item/45?t=1791534395964",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 36.2,
+   "queueing_ms": 49.1,
+   "stalled_ms": 325.3,
+   "blocked_ms": 374.4,
+   "ttfb_ms": 113.9,
+   "total_ms": 488.5
+  },
+  {
+   "url": "/api/item/46?t=1791534395964",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 36.3,
+   "queueing_ms": 49.3,
+   "stalled_ms": 260.1,
+   "blocked_ms": 309.4,
+   "ttfb_ms": 158.5,
+   "total_ms": 468.1
+  },
+  {
+   "url": "/api/item/47?t=1791534395965",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 36.3,
+   "queueing_ms": 49.5,
+   "stalled_ms": 260.9,
+   "blocked_ms": 310.5,
+   "ttfb_ms": 152.4,
+   "total_ms": 463.1
+  },
+  {
+   "url": "/api/item/48?t=1791534395965",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 36.4,
+   "queueing_ms": 49.7,
+   "stalled_ms": 263.2,
+   "blocked_ms": 312.8,
+   "ttfb_ms": 298.7,
+   "total_ms": 611.8
+  },
+  {
+   "url": "/api/item/49?t=1791534395965",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 36.5,
+   "queueing_ms": 49.9,
+   "stalled_ms": 269.4,
+   "blocked_ms": 319.3,
+   "ttfb_ms": 112.3,
+   "total_ms": 431.8
+  },
+  {
+   "url": "/api/item/50?t=1791534395965",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 36.5,
+   "queueing_ms": 50.0,
+   "stalled_ms": 272.5,
+   "blocked_ms": 322.5,
+   "ttfb_ms": 182.8,
+   "total_ms": 505.6
+  },
+  {
+   "url": "/api/item/51?t=1791534395965",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 36.6,
+   "queueing_ms": 50.2,
+   "stalled_ms": 279.8,
+   "blocked_ms": 330.0,
+   "ttfb_ms": 159.9,
+   "total_ms": 490.2
+  },
+  {
+   "url": "/api/item/52?t=1791534395965",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 36.7,
+   "queueing_ms": 50.3,
+   "stalled_ms": 282.3,
+   "blocked_ms": 332.6,
+   "ttfb_ms": 337.5,
+   "total_ms": 670.3
+  },
+  {
+   "url": "/api/item/53?t=1791534395965",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 36.8,
+   "queueing_ms": 50.6,
+   "stalled_ms": 284.6,
+   "blocked_ms": 335.2,
+   "ttfb_ms": 198.8,
+   "total_ms": 534.2
+  },
+  {
+   "url": "/api/item/54?t=1791534395965",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 36.8,
+   "queueing_ms": 50.8,
+   "stalled_ms": 287.6,
+   "blocked_ms": 338.3,
+   "ttfb_ms": 231.6,
+   "total_ms": 570.1
+  },
+  {
+   "url": "/api/item/55?t=1791534395965",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 36.9,
+   "queueing_ms": 50.9,
+   "stalled_ms": 291.9,
+   "blocked_ms": 342.9,
+   "ttfb_ms": 233.6,
+   "total_ms": 576.7
+  },
+  {
+   "url": "/api/item/56?t=1791534395965",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 37.0,
+   "queueing_ms": 51.1,
+   "stalled_ms": 295.0,
+   "blocked_ms": 346.0,
+   "ttfb_ms": 234.1,
+   "total_ms": 580.3
+  },
+  {
+   "url": "/api/item/57?t=1791534395965",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 37.1,
+   "queueing_ms": 51.2,
+   "stalled_ms": 299.3,
+   "blocked_ms": 350.5,
+   "ttfb_ms": 373.2,
+   "total_ms": 723.9
+  },
+  {
+   "url": "/api/item/58?t=1791534395965",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 37.2,
+   "queueing_ms": 51.3,
+   "stalled_ms": 301.1,
+   "blocked_ms": 352.4,
+   "ttfb_ms": 176.8,
+   "total_ms": 529.4
+  },
+  {
+   "url": "/api/item/59?t=1791534395965",
+   "type": "Fetch",
+   "protocol": "h2",
+   "conn": 66,
+   "issuer": "mitmproxy",
+   "start_ms": 37.2,
+   "queueing_ms": 51.6,
+   "stalled_ms": 300.8,
+   "blocked_ms": 352.4,
+   "ttfb_ms": 181.5,
+   "total_ms": 534.1
+  }
+ ],
+ "resource_timing": [
+  {
+   "name": "https://localhost:8443/static/js/mod0.js",
+   "proto": "h2",
+   "fetchStart": 19.69999998807907,
+   "requestStart": 20.5,
+   "responseEnd": 204.80000001192093
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod1.js",
+   "proto": "h2",
+   "fetchStart": 20.099999964237213,
+   "requestStart": 21.5,
+   "responseEnd": 178.89999997615814
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod2.js",
+   "proto": "h2",
+   "fetchStart": 20.099999964237213,
+   "requestStart": 31.599999964237213,
+   "responseEnd": 249.5999999642372
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod3.js",
+   "proto": "h2",
+   "fetchStart": 20.19999998807907,
+   "requestStart": 35.30000001192093,
+   "responseEnd": 198.39999997615814
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod5.js",
+   "proto": "h2",
+   "fetchStart": 20.19999998807907,
+   "requestStart": 40.30000001192093,
+   "responseEnd": 290.39999997615814
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod4.js",
+   "proto": "h2",
+   "fetchStart": 20.19999998807907,
+   "requestStart": 38.59999996423721,
+   "responseEnd": 434
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod6.js",
+   "proto": "h2",
+   "fetchStart": 20.30000001192093,
+   "requestStart": 43.19999998807907,
+   "responseEnd": 179.39999997615814
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod8.js",
+   "proto": "h2",
+   "fetchStart": 20.399999976158142,
+   "requestStart": 45.89999997615814,
+   "responseEnd": 224.5999999642372
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod7.js",
+   "proto": "h2",
+   "fetchStart": 20.399999976158142,
+   "requestStart": 44.59999996423721,
+   "responseEnd": 329.69999998807907
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod9.js",
+   "proto": "h2",
+   "fetchStart": 20.5,
+   "requestStart": 47.30000001192093,
+   "responseEnd": 294.5
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod10.js",
+   "proto": "h2",
+   "fetchStart": 20.599999964237213,
+   "requestStart": 51.80000001192093,
+   "responseEnd": 192.19999998807907
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod11.js",
+   "proto": "h2",
+   "fetchStart": 20.599999964237213,
+   "requestStart": 54.39999997615814,
+   "responseEnd": 212.5999999642372
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod14.js",
+   "proto": "h2",
+   "fetchStart": 20.69999998807907,
+   "requestStart": 63.30000001192093,
+   "responseEnd": 332.0999999642372
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod12.js",
+   "proto": "h2",
+   "fetchStart": 20.69999998807907,
+   "requestStart": 58.5,
+   "responseEnd": 474.30000001192093
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod13.js",
+   "proto": "h2",
+   "fetchStart": 20.69999998807907,
+   "requestStart": 60.80000001192093,
+   "responseEnd": 497.89999997615814
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod15.js",
+   "proto": "h2",
+   "fetchStart": 20.80000001192093,
+   "requestStart": 65.59999996423721,
+   "responseEnd": 416.0999999642372
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod16.js",
+   "proto": "h2",
+   "fetchStart": 20.899999976158142,
+   "requestStart": 67.19999998807907,
+   "responseEnd": 389.69999998807907
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod17.js",
+   "proto": "h2",
+   "fetchStart": 20.899999976158142,
+   "requestStart": 69.09999996423721,
+   "responseEnd": 518.6999999880791
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod18.js",
+   "proto": "h2",
+   "fetchStart": 21,
+   "requestStart": 70.80000001192093,
+   "responseEnd": 278.89999997615814
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod19.js",
+   "proto": "h2",
+   "fetchStart": 21,
+   "requestStart": 73.59999996423721,
+   "responseEnd": 338.69999998807907
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod20.js",
+   "proto": "h2",
+   "fetchStart": 21.099999964237213,
+   "requestStart": 76.80000001192093,
+   "responseEnd": 347.0999999642372
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod21.js",
+   "proto": "h2",
+   "fetchStart": 21.099999964237213,
+   "requestStart": 78.5,
+   "responseEnd": 469.69999998807907
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod22.js",
+   "proto": "h2",
+   "fetchStart": 21.19999998807907,
+   "requestStart": 80,
+   "responseEnd": 455.0999999642372
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod23.js",
+   "proto": "h2",
+   "fetchStart": 21.30000001192093,
+   "requestStart": 81.59999996423721,
+   "responseEnd": 241.5
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod25.js",
+   "proto": "h2",
+   "fetchStart": 21.30000001192093,
+   "requestStart": 84.80000001192093,
+   "responseEnd": 315.5
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod26.js",
+   "proto": "h2",
+   "fetchStart": 21.30000001192093,
+   "requestStart": 86.30000001192093,
+   "responseEnd": 327.5
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod24.js",
+   "proto": "h2",
+   "fetchStart": 21.30000001192093,
+   "requestStart": 83.09999996423721,
+   "responseEnd": 403.0999999642372
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod27.js",
+   "proto": "h2",
+   "fetchStart": 21.399999976158142,
+   "requestStart": 87.80000001192093,
+   "responseEnd": 481.69999998807907
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod29.js",
+   "proto": "h2",
+   "fetchStart": 21.5,
+   "requestStart": 89.89999997615814,
+   "responseEnd": 297.89999997615814
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod30.js",
+   "proto": "h2",
+   "fetchStart": 21.5,
+   "requestStart": 90.09999996423721,
+   "responseEnd": 359.5
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod31.js",
+   "proto": "h2",
+   "fetchStart": 21.5,
+   "requestStart": 90.19999998807907,
+   "responseEnd": 394.0999999642372
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod28.js",
+   "proto": "h2",
+   "fetchStart": 21.5,
+   "requestStart": 89.30000001192093,
+   "responseEnd": 534.0999999642372
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod32.js",
+   "proto": "h2",
+   "fetchStart": 21.69999998807907,
+   "requestStart": 90.19999998807907,
+   "responseEnd": 380.19999998807907
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod33.js",
+   "proto": "h2",
+   "fetchStart": 21.69999998807907,
+   "requestStart": 90.30000001192093,
+   "responseEnd": 498.89999997615814
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod36.js",
+   "proto": "h2",
+   "fetchStart": 21.80000001192093,
+   "requestStart": 90.59999996423721,
+   "responseEnd": 271.5
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod37.js",
+   "proto": "h2",
+   "fetchStart": 21.80000001192093,
+   "requestStart": 90.59999996423721,
+   "responseEnd": 339.19999998807907
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod35.js",
+   "proto": "h2",
+   "fetchStart": 21.80000001192093,
+   "requestStart": 90.5,
+   "responseEnd": 375.5999999642372
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod34.js",
+   "proto": "h2",
+   "fetchStart": 21.80000001192093,
+   "requestStart": 90.39999997615814,
+   "responseEnd": 434.89999997615814
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod39.js",
+   "proto": "h2",
+   "fetchStart": 21.899999976158142,
+   "requestStart": 90.80000001192093,
+   "responseEnd": 264.19999998807907
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod38.js",
+   "proto": "h2",
+   "fetchStart": 21.899999976158142,
+   "requestStart": 90.69999998807907,
+   "responseEnd": 334.39999997615814
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod40.js",
+   "proto": "h2",
+   "fetchStart": 22,
+   "requestStart": 90.89999997615814,
+   "responseEnd": 268
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod41.js",
+   "proto": "h2",
+   "fetchStart": 22,
+   "requestStart": 91.09999996423721,
+   "responseEnd": 356.19999998807907
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod42.js",
+   "proto": "h2",
+   "fetchStart": 22,
+   "requestStart": 91.09999996423721,
+   "responseEnd": 557.8000000119209
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod44.js",
+   "proto": "h2",
+   "fetchStart": 22.099999964237213,
+   "requestStart": 91.30000001192093,
+   "responseEnd": 435.30000001192093
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod43.js",
+   "proto": "h2",
+   "fetchStart": 22.099999964237213,
+   "requestStart": 91.19999998807907,
+   "responseEnd": 464.0999999642372
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod45.js",
+   "proto": "h2",
+   "fetchStart": 22.099999964237213,
+   "requestStart": 91.30000001192093,
+   "responseEnd": 559.3000000119209
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod47.js",
+   "proto": "h2",
+   "fetchStart": 22.19999998807907,
+   "requestStart": 91.5,
+   "responseEnd": 290.80000001192093
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod48.js",
+   "proto": "h2",
+   "fetchStart": 22.19999998807907,
+   "requestStart": 91.59999996423721,
+   "responseEnd": 388
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod46.js",
+   "proto": "h2",
+   "fetchStart": 22.19999998807907,
+   "requestStart": 91.5,
+   "responseEnd": 522.5999999642372
+  },
+  {
+   "name": "https://localhost:8443/static/img/i0.svg",
+   "proto": "h2",
+   "fetchStart": 22.30000001192093,
+   "requestStart": 91.69999998807907,
+   "responseEnd": 346
+  },
+  {
+   "name": "https://localhost:8443/static/js/mod49.js",
+   "proto": "h2",
+   "fetchStart": 22.30000001192093,
+   "requestStart": 91.59999996423721,
+   "responseEnd": 367
+  },
+  {
+   "name": "https://localhost:8443/static/img/i1.svg",
+   "proto": "h2",
+   "fetchStart": 22.5,
+   "requestStart": 91.80000001192093,
+   "responseEnd": 279.19999998807907
+  },
+  {
+   "name": "https://localhost:8443/static/img/i2.svg",
+   "proto": "h2",
+   "fetchStart": 22.5,
+   "requestStart": 91.80000001192093,
+   "responseEnd": 321.5
+  },
+  {
+   "name": "https://localhost:8443/static/img/i3.svg",
+   "proto": "h2",
+   "fetchStart": 22.5,
+   "requestStart": 91.89999997615814,
+   "responseEnd": 417.80000001192093
+  },
+  {
+   "name": "https://localhost:8443/static/img/i7.svg",
+   "proto": "h2",
+   "fetchStart": 22.599999964237213,
+   "requestStart": 92.19999998807907,
+   "responseEnd": 275.5
+  },
+  {
+   "name": "https://localhost:8443/static/img/i6.svg",
+   "proto": "h2",
+   "fetchStart": 22.599999964237213,
+   "requestStart": 92.19999998807907,
+   "responseEnd": 411
+  },
+  {
+   "name": "https://localhost:8443/static/img/i4.svg",
+   "proto": "h2",
+   "fetchStart": 22.599999964237213,
+   "requestStart": 92.09999996423721,
+   "responseEnd": 491.30000001192093
+  },
+  {
+   "name": "https://localhost:8443/static/img/i5.svg",
+   "proto": "h2",
+   "fetchStart": 22.599999964237213,
+   "requestStart": 92.09999996423721,
+   "responseEnd": 560.3999999761581
+  },
+  {
+   "name": "https://localhost:8443/static/img/i9.svg",
+   "proto": "h2",
+   "fetchStart": 22.69999998807907,
+   "requestStart": 92.39999997615814,
+   "responseEnd": 394.5
+  },
+  {
+   "name": "https://localhost:8443/static/img/i8.svg",
+   "proto": "h2",
+   "fetchStart": 22.69999998807907,
+   "requestStart": 92.30000001192093,
+   "responseEnd": 445.69999998807907
+  },
+  {
+   "name": "https://localhost:8443/static/img/i10.svg",
+   "proto": "h2",
+   "fetchStart": 22.69999998807907,
+   "requestStart": 92.39999997615814,
+   "responseEnd": 556
+  },
+  {
+   "name": "https://localhost:8443/static/img/i11.svg",
+   "proto": "h2",
+   "fetchStart": 22.80000001192093,
+   "requestStart": 92.5,
+   "responseEnd": 330.0999999642372
+  },
+  {
+   "name": "https://localhost:8443/static/img/i12.svg",
+   "proto": "h2",
+   "fetchStart": 22.899999976158142,
+   "requestStart": 92.59999996423721,
+   "responseEnd": 279.5
+  },
+  {
+   "name": "https://localhost:8443/static/img/i13.svg",
+   "proto": "h2",
+   "fetchStart": 23,
+   "requestStart": 92.69999998807907,
+   "responseEnd": 524.8000000119209
+  },
+  {
+   "name": "https://localhost:8443/static/img/i14.svg",
+   "proto": "h2",
+   "fetchStart": 23.099999964237213,
+   "requestStart": 94.89999997615814,
+   "responseEnd": 411.5
+  },
+  {
+   "name": "https://localhost:8443/static/img/i15.svg",
+   "proto": "h2",
+   "fetchStart": 23.099999964237213,
+   "requestStart": 95,
+   "responseEnd": 553.8000000119209
+  },
+  {
+   "name": "https://localhost:8443/static/img/i18.svg",
+   "proto": "h2",
+   "fetchStart": 23.19999998807907,
+   "requestStart": 95.30000001192093,
+   "responseEnd": 383.39999997615814
+  },
+  {
+   "name": "https://localhost:8443/static/img/i17.svg",
+   "proto": "h2",
+   "fetchStart": 23.19999998807907,
+   "requestStart": 95.19999998807907,
+   "responseEnd": 484
+  },
+  {
+   "name": "https://localhost:8443/static/img/i16.svg",
+   "proto": "h2",
+   "fetchStart": 23.19999998807907,
+   "requestStart": 95.19999998807907,
+   "responseEnd": 552.5
+  },
+  {
+   "name": "https://localhost:8443/static/img/i19.svg",
+   "proto": "h2",
+   "fetchStart": 23.30000001192093,
+   "requestStart": 95.39999997615814,
+   "responseEnd": 332.39999997615814
+  },
+  {
+   "name": "https://localhost:8443/static/img/i20.svg",
+   "proto": "h2",
+   "fetchStart": 23.30000001192093,
+   "requestStart": 95.5,
+   "responseEnd": 462.5
+  },
+  {
+   "name": "https://localhost:8443/static/img/i21.svg",
+   "proto": "h2",
+   "fetchStart": 23.399999976158142,
+   "requestStart": 95.5,
+   "responseEnd": 285.39999997615814
+  },
+  {
+   "name": "https://localhost:8443/static/img/i23.svg",
+   "proto": "h2",
+   "fetchStart": 23.399999976158142,
+   "requestStart": 95.59999996423721,
+   "responseEnd": 405.39999997615814
+  },
+  {
+   "name": "https://localhost:8443/static/img/i24.svg",
+   "proto": "h2",
+   "fetchStart": 23.399999976158142,
+   "requestStart": 95.69999998807907,
+   "responseEnd": 511.0999999642372
+  },
+  {
+   "name": "https://localhost:8443/static/img/i22.svg",
+   "proto": "h2",
+   "fetchStart": 23.399999976158142,
+   "requestStart": 95.59999996423721,
+   "responseEnd": 547.5999999642372
+  },
+  {
+   "name": "https://localhost:8443/static/img/i25.svg",
+   "proto": "h2",
+   "fetchStart": 23.5,
+   "requestStart": 95.80000001192093,
+   "responseEnd": 523.0999999642372
+  },
+  {
+   "name": "https://localhost:8443/static/img/i27.svg",
+   "proto": "h2",
+   "fetchStart": 23.599999964237213,
+   "requestStart": 96,
+   "responseEnd": 318.5
+  },
+  {
+   "name": "https://localhost:8443/static/img/i28.svg",
+   "proto": "h2",
+   "fetchStart": 23.599999964237213,
+   "requestStart": 96.09999996423721,
+   "responseEnd": 390
+  },
+  {
+   "name": "https://localhost:8443/static/img/i29.svg",
+   "proto": "h2",
+   "fetchStart": 23.599999964237213,
+   "requestStart": 96.19999998807907,
+   "responseEnd": 426.39999997615814
+  },
+  {
+   "name": "https://localhost:8443/static/img/i26.svg",
+   "proto": "h2",
+   "fetchStart": 23.599999964237213,
+   "requestStart": 95.89999997615814,
+   "responseEnd": 540.8000000119209
+  },
+  {
+   "name": "https://localhost:8443/static/img/i30.svg",
+   "proto": "h2",
+   "fetchStart": 23.69999998807907,
+   "requestStart": 96.19999998807907,
+   "responseEnd": 543.1999999880791
+  },
+  {
+   "name": "https://localhost:8443/static/img/i31.svg",
+   "proto": "h2",
+   "fetchStart": 23.80000001192093,
+   "requestStart": 96.30000001192093,
+   "responseEnd": 468.19999998807907
+  },
+  {
+   "name": "https://localhost:8443/static/img/i32.svg",
+   "proto": "h2",
+   "fetchStart": 23.899999976158142,
+   "requestStart": 96.30000001192093,
+   "responseEnd": 447.30000001192093
+  },
+  {
+   "name": "https://localhost:8443/static/img/i33.svg",
+   "proto": "h2",
+   "fetchStart": 23.899999976158142,
+   "requestStart": 96.5,
+   "responseEnd": 482.89999997615814
+  },
+  {
+   "name": "https://localhost:8443/static/img/i34.svg",
+   "proto": "h2",
+   "fetchStart": 24,
+   "requestStart": 96.5,
+   "responseEnd": 520.5
+  },
+  {
+   "name": "https://localhost:8443/static/img/i37.svg",
+   "proto": "h2",
+   "fetchStart": 24.099999964237213,
+   "requestStart": 96.80000001192093,
+   "responseEnd": 319
+  },
+  {
+   "name": "https://localhost:8443/static/img/i35.svg",
+   "proto": "h2",
+   "fetchStart": 24.099999964237213,
+   "requestStart": 96.69999998807907,
+   "responseEnd": 411.89999997615814
+  },
+  {
+   "name": "https://localhost:8443/static/img/i36.svg",
+   "proto": "h2",
+   "fetchStart": 24.099999964237213,
+   "requestStart": 96.80000001192093,
+   "responseEnd": 446.19999998807907
+  },
+  {
+   "name": "https://localhost:8443/static/img/i38.svg",
+   "proto": "h2",
+   "fetchStart": 24.19999998807907,
+   "requestStart": 97,
+   "responseEnd": 529.5
+  },
+  {
+   "name": "https://localhost:8443/static/img/i40.svg",
+   "proto": "h2",
+   "fetchStart": 24.30000001192093,
+   "requestStart": 97.09999996423721,
+   "responseEnd": 372.39999997615814
+  },
+  {
+   "name": "https://localhost:8443/static/img/i39.svg",
+   "proto": "h2",
+   "fetchStart": 24.30000001192093,
+   "requestStart": 97.09999996423721,
+   "responseEnd": 417.5
+  },
+  {
+   "name": "https://localhost:8443/static/img/i41.svg",
+   "proto": "h2",
+   "fetchStart": 24.399999976158142,
+   "requestStart": 97.19999998807907,
+   "responseEnd": 519.1999999880791
+  },
+  {
+   "name": "https://localhost:8443/static/img/i42.svg",
+   "proto": "h2",
+   "fetchStart": 24.5,
+   "requestStart": 97.30000001192093,
+   "responseEnd": 303.0999999642372
+  },
+  {
+   "name": "https://localhost:8443/static/img/i43.svg",
+   "proto": "h2",
+   "fetchStart": 24.599999964237213,
+   "requestStart": 97.39999997615814,
+   "responseEnd": 369.69999998807907
+  },
+  {
+   "name": "https://localhost:8443/static/img/i44.svg",
+   "proto": "h2",
+   "fetchStart": 24.599999964237213,
+   "requestStart": 97.39999997615814,
+   "responseEnd": 396.30000001192093
+  },
+  {
+   "name": "https://localhost:8443/static/img/i45.svg",
+   "proto": "h2",
+   "fetchStart": 24.599999964237213,
+   "requestStart": 97.5,
+   "responseEnd": 403.5999999642372
+  },
+  {
+   "name": "https://localhost:8443/static/img/i46.svg",
+   "proto": "h2",
+   "fetchStart": 24.69999998807907,
+   "requestStart": 97.59999996423721,
+   "responseEnd": 498.5
+  },
+  {
+   "name": "https://localhost:8443/static/img/i47.svg",
+   "proto": "h2",
+   "fetchStart": 24.80000001192093,
+   "requestStart": 97.59999996423721,
+   "responseEnd": 470
+  },
+  {
+   "name": "https://localhost:8443/static/img/i49.svg",
+   "proto": "h2",
+   "fetchStart": 24.80000001192093,
+   "requestStart": 97.80000001192093,
+   "responseEnd": 480.30000001192093
+  },
+  {
+   "name": "https://localhost:8443/static/img/i48.svg",
+   "proto": "h2",
+   "fetchStart": 24.80000001192093,
+   "requestStart": 97.69999998807907,
+   "responseEnd": 488
+  },
+  {
+   "name": "https://localhost:8443/static/img/i51.svg",
+   "proto": "h2",
+   "fetchStart": 24.899999976158142,
+   "requestStart": 418,
+   "responseEnd": 711.5999999642372
+  },
+  {
+   "name": "https://localhost:8443/static/img/i52.svg",
+   "proto": "h2",
+   "fetchStart": 24.899999976158142,
+   "requestStart": 446.39999997615814,
+   "responseEnd": 744.1999999880791
+  },
+  {
+   "name": "https://localhost:8443/static/img/i50.svg",
+   "proto": "h2",
+   "fetchStart": 24.899999976158142,
+   "requestStart": 417.89999997615814,
+   "responseEnd": 797.1999999880791
+  },
+  {
+   "name": "https://localhost:8443/static/img/i54.svg",
+   "proto": "h2",
+   "fetchStart": 25,
+   "requestStart": 435.5,
+   "responseEnd": 569.6999999880791
+  },
+  {
+   "name": "https://localhost:8443/static/img/i53.svg",
+   "proto": "h2",
+   "fetchStart": 25,
+   "requestStart": 426.69999998807907,
+   "responseEnd": 789.6999999880791
+  },
+  {
+   "name": "https://localhost:8443/static/img/i55.svg",
+   "proto": "h2",
+   "fetchStart": 25,
+   "requestStart": 435.5,
+   "responseEnd": 818.6999999880791
+  },
+  {
+   "name": "https://localhost:8443/static/img/i56.svg",
+   "proto": "h2",
+   "fetchStart": 25.099999964237213,
+   "requestStart": 435.5999999642372,
+   "responseEnd": 682.5999999642372
+  },
+  {
+   "name": "https://localhost:8443/static/img/i57.svg",
+   "proto": "h2",
+   "fetchStart": 25.099999964237213,
+   "requestStart": 435.69999998807907,
+   "responseEnd": 833.6999999880791
+  },
+  {
+   "name": "https://localhost:8443/static/img/i58.svg",
+   "proto": "h2",
+   "fetchStart": 25.19999998807907,
+   "requestStart": 437,
+   "responseEnd": 726
+  },
+  {
+   "name": "https://localhost:8443/static/img/i59.svg",
+   "proto": "h2",
+   "fetchStart": 25.19999998807907,
+   "requestStart": 446.39999997615814,
+   "responseEnd": 788.3000000119209
+  },
+  {
+   "name": "https://localhost:8443/api/item/0?t=1791534395961",
+   "proto": "h2",
+   "fetchStart": 33.59999996423721,
+   "requestStart": 179.5,
+   "responseEnd": 349.5999999642372
+  },
+  {
+   "name": "https://localhost:8443/api/item/1?t=1791534395961",
+   "proto": "h2",
+   "fetchStart": 33.69999998807907,
+   "requestStart": 179.5999999642372,
+   "responseEnd": 322.89999997615814
+  },
+  {
+   "name": "https://localhost:8443/api/item/3?t=1791534395961",
+   "proto": "h2",
+   "fetchStart": 33.69999998807907,
+   "requestStart": 192.5,
+   "responseEnd": 488.5
+  },
+  {
+   "name": "https://localhost:8443/api/item/2?t=1791534395961",
+   "proto": "h2",
+   "fetchStart": 33.69999998807907,
+   "requestStart": 411.89999997615814,
+   "responseEnd": 809.3000000119209
+  },
+  {
+   "name": "https://localhost:8443/api/item/5?t=1791534395961",
+   "proto": "h2",
+   "fetchStart": 33.89999997615814,
+   "requestStart": 205,
+   "responseEnd": 478.5999999642372
+  },
+  {
+   "name": "https://localhost:8443/api/item/6?t=1791534395961",
+   "proto": "h2",
+   "fetchStart": 33.89999997615814,
+   "requestStart": 212.69999998807907,
+   "responseEnd": 488.69999998807907
+  },
+  {
+   "name": "https://localhost:8443/api/item/4?t=1791534395961",
+   "proto": "h2",
+   "fetchStart": 33.89999997615814,
+   "requestStart": 198.5999999642372,
+   "responseEnd": 533.3999999761581
+  },
+  {
+   "name": "https://localhost:8443/api/item/7?t=1791534395962",
+   "proto": "h2",
+   "fetchStart": 34,
+   "requestStart": 224.69999998807907,
+   "responseEnd": 543.6999999880791
+  },
+  {
+   "name": "https://localhost:8443/api/item/8?t=1791534395962",
+   "proto": "h2",
+   "fetchStart": 34.09999996423721,
+   "requestStart": 241.69999998807907,
+   "responseEnd": 598.0999999642372
+  },
+  {
+   "name": "https://localhost:8443/api/item/12?t=1791534395962",
+   "proto": "h2",
+   "fetchStart": 34.19999998807907,
+   "requestStart": 271.69999998807907,
+   "responseEnd": 434.39999997615814
+  },
+  {
+   "name": "https://localhost:8443/api/item/10?t=1791534395962",
+   "proto": "h2",
+   "fetchStart": 34.19999998807907,
+   "requestStart": 264.39999997615814,
+   "responseEnd": 521
+  },
+  {
+   "name": "https://localhost:8443/api/item/9?t=1791534395962",
+   "proto": "h2",
+   "fetchStart": 34.19999998807907,
+   "requestStart": 249.80000001192093,
+   "responseEnd": 526.3000000119209
+  },
+  {
+   "name": "https://localhost:8443/api/item/11?t=1791534395962",
+   "proto": "h2",
+   "fetchStart": 34.19999998807907,
+   "requestStart": 268.0999999642372,
+   "responseEnd": 577.3000000119209
+  },
+  {
+   "name": "https://localhost:8443/api/item/13?t=1791534395962",
+   "proto": "h2",
+   "fetchStart": 34.30000001192093,
+   "requestStart": 275.5999999642372,
+   "responseEnd": 436.80000001192093
+  },
+  {
+   "name": "https://localhost:8443/api/item/14?t=1791534395962",
+   "proto": "h2",
+   "fetchStart": 34.30000001192093,
+   "requestStart": 279.5999999642372,
+   "responseEnd": 643.0999999642372
+  },
+  {
+   "name": "https://localhost:8443/api/item/15?t=1791534395962",
+   "proto": "h2",
+   "fetchStart": 34.39999997615814,
+   "requestStart": 279.69999998807907,
+   "responseEnd": 682
+  },
+  {
+   "name": "https://localhost:8443/api/item/16?t=1791534395962",
+   "proto": "h2",
+   "fetchStart": 34.5,
+   "requestStart": 279.80000001192093,
+   "responseEnd": 402.30000001192093
+  },
+  {
+   "name": "https://localhost:8443/api/item/17?t=1791534395962",
+   "proto": "h2",
+   "fetchStart": 34.59999996423721,
+   "requestStart": 394.5999999642372,
+   "responseEnd": 733.3999999761581
+  },
+  {
+   "name": "https://localhost:8443/api/item/18?t=1791534395962",
+   "proto": "h2",
+   "fetchStart": 34.69999998807907,
+   "requestStart": 394.69999998807907,
+   "responseEnd": 606.3999999761581
+  },
+  {
+   "name": "https://localhost:8443/api/item/19?t=1791534395962",
+   "proto": "h2",
+   "fetchStart": 34.69999998807907,
+   "requestStart": 412,
+   "responseEnd": 635.1999999880791
+  },
+  {
+   "name": "https://localhost:8443/api/item/20?t=1791534395962",
+   "proto": "h2",
+   "fetchStart": 34.80000001192093,
+   "requestStart": 285.69999998807907,
+   "responseEnd": 544.0999999642372
+  },
+  {
+   "name": "https://localhost:8443/api/item/21?t=1791534395962",
+   "proto": "h2",
+   "fetchStart": 34.89999997615814,
+   "requestStart": 291,
+   "responseEnd": 607.8999999761581
+  },
+  {
+   "name": "https://localhost:8443/api/item/22?t=1791534395963",
+   "proto": "h2",
+   "fetchStart": 35,
+   "requestStart": 291,
+   "responseEnd": 444.80000001192093
+  },
+  {
+   "name": "https://localhost:8443/api/item/23?t=1791534395963",
+   "proto": "h2",
+   "fetchStart": 35,
+   "requestStart": 396.39999997615814,
+   "responseEnd": 645.3000000119209
+  },
+  {
+   "name": "https://localhost:8443/api/item/25?t=1791534395963",
+   "proto": "h2",
+   "fetchStart": 35.09999996423721,
+   "requestStart": 298.19999998807907,
+   "responseEnd": 500.39999997615814
+  },
+  {
+   "name": "https://localhost:8443/api/item/24?t=1791534395963",
+   "proto": "h2",
+   "fetchStart": 35.09999996423721,
+   "requestStart": 294.69999998807907,
+   "responseEnd": 615.5
+  },
+  {
+   "name": "https://localhost:8443/api/item/26?t=1791534395963",
+   "proto": "h2",
+   "fetchStart": 35.30000001192093,
+   "requestStart": 303.30000001192093,
+   "responseEnd": 549.6999999880791
+  },
+  {
+   "name": "https://localhost:8443/api/item/27?t=1791534395963",
+   "proto": "h2",
+   "fetchStart": 35.30000001192093,
+   "requestStart": 315.80000001192093,
+   "responseEnd": 561.8999999761581
+  },
+  {
+   "name": "https://localhost:8443/api/item/28?t=1791534395963",
+   "proto": "h2",
+   "fetchStart": 35.30000001192093,
+   "requestStart": 319.19999998807907,
+   "responseEnd": 672
+  },
+  {
+   "name": "https://localhost:8443/api/item/29?t=1791534395963",
+   "proto": "h2",
+   "fetchStart": 35.39999997615814,
+   "requestStart": 319.19999998807907,
+   "responseEnd": 715.3999999761581
+  },
+  {
+   "name": "https://localhost:8443/api/item/31?t=1791534395963",
+   "proto": "h2",
+   "fetchStart": 35.5,
+   "requestStart": 321.69999998807907,
+   "responseEnd": 445.30000001192093
+  },
+  {
+   "name": "https://localhost:8443/api/item/30?t=1791534395963",
+   "proto": "h2",
+   "fetchStart": 35.5,
+   "requestStart": 402.5999999642372,
+   "responseEnd": 709.3999999761581
+  },
+  {
+   "name": "https://localhost:8443/api/item/32?t=1791534395963",
+   "proto": "h2",
+   "fetchStart": 35.69999998807907,
+   "requestStart": 323.19999998807907,
+   "responseEnd": 693.8999999761581
+  },
+  {
+   "name": "https://localhost:8443/api/item/33?t=1791534395963",
+   "proto": "h2",
+   "fetchStart": 35.69999998807907,
+   "requestStart": 327.80000001192093,
+   "responseEnd": 724.5
+  },
+  {
+   "name": "https://localhost:8443/api/item/35?t=1791534395963",
+   "proto": "h2",
+   "fetchStart": 35.80000001192093,
+   "requestStart": 330.30000001192093,
+   "responseEnd": 556.3000000119209
+  },
+  {
+   "name": "https://localhost:8443/api/item/34?t=1791534395963",
+   "proto": "h2",
+   "fetchStart": 35.80000001192093,
+   "requestStart": 330.19999998807907,
+   "responseEnd": 562.1999999880791
+  },
+  {
+   "name": "https://localhost:8443/api/item/36?t=1791534395963",
+   "proto": "h2",
+   "fetchStart": 35.89999997615814,
+   "requestStart": 403.80000001192093,
+   "responseEnd": 558.0999999642372
+  },
+  {
+   "name": "https://localhost:8443/api/item/37?t=1791534395964",
+   "proto": "h2",
+   "fetchStart": 36.09999996423721,
+   "requestStart": 332.5999999642372,
+   "responseEnd": 656.3999999761581
+  },
+  {
+   "name": "https://localhost:8443/api/item/38?t=1791534395964",
+   "proto": "h2",
+   "fetchStart": 36.19999998807907,
+   "requestStart": 332.5999999642372,
+   "responseEnd": 579.3999999761581
+  },
+  {
+   "name": "https://localhost:8443/api/item/39?t=1791534395964",
+   "proto": "h2",
+   "fetchStart": 36.19999998807907,
+   "requestStart": 403.89999997615814,
+   "responseEnd": 801.8000000119209
+  },
+  {
+   "name": "https://localhost:8443/api/item/40?t=1791534395964",
+   "proto": "h2",
+   "fetchStart": 36.30000001192093,
+   "requestStart": 339.30000001192093,
+   "responseEnd": 618.6999999880791
+  },
+  {
+   "name": "https://localhost:8443/api/item/41?t=1791534395964",
+   "proto": "h2",
+   "fetchStart": 36.39999997615814,
+   "requestStart": 339.5,
+   "responseEnd": 468.5
+  },
+  {
+   "name": "https://localhost:8443/api/item/42?t=1791534395964",
+   "proto": "h2",
+   "fetchStart": 36.5,
+   "requestStart": 339.5,
+   "responseEnd": 693.5999999642372
+  },
+  {
+   "name": "https://localhost:8443/api/item/43?t=1791534395964",
+   "proto": "h2",
+   "fetchStart": 36.59999996423721,
+   "requestStart": 416.30000001192093,
+   "responseEnd": 744.8999999761581
+  },
+  {
+   "name": "https://localhost:8443/api/item/44?t=1791534395964",
+   "proto": "h2",
+   "fetchStart": 36.69999998807907,
+   "requestStart": 405.5999999642372,
+   "responseEnd": 805.3000000119209
+  },
+  {
+   "name": "https://localhost:8443/api/item/45?t=1791534395964",
+   "proto": "h2",
+   "fetchStart": 36.80000001192093,
+   "requestStart": 411.30000001192093,
+   "responseEnd": 525.3000000119209
+  },
+  {
+   "name": "https://localhost:8443/api/item/46?t=1791534395964",
+   "proto": "h2",
+   "fetchStart": 36.89999997615814,
+   "requestStart": 346.30000001192093,
+   "responseEnd": 505
+  },
+  {
+   "name": "https://localhost:8443/api/item/47?t=1791534395965",
+   "proto": "h2",
+   "fetchStart": 37,
+   "requestStart": 347.39999997615814,
+   "responseEnd": 500
+  },
+  {
+   "name": "https://localhost:8443/api/item/48?t=1791534395965",
+   "proto": "h2",
+   "fetchStart": 37,
+   "requestStart": 349.80000001192093,
+   "responseEnd": 648.8000000119209
+  },
+  {
+   "name": "https://localhost:8443/api/item/49?t=1791534395965",
+   "proto": "h2",
+   "fetchStart": 37.09999996423721,
+   "requestStart": 356.39999997615814,
+   "responseEnd": 468.80000001192093
+  },
+  {
+   "name": "https://localhost:8443/api/item/51?t=1791534395965",
+   "proto": "h2",
+   "fetchStart": 37.19999998807907,
+   "requestStart": 367.19999998807907,
+   "responseEnd": 527.3000000119209
+  },
+  {
+   "name": "https://localhost:8443/api/item/50?t=1791534395965",
+   "proto": "h2",
+   "fetchStart": 37.19999998807907,
+   "requestStart": 359.69999998807907,
+   "responseEnd": 542.6999999880791
+  },
+  {
+   "name": "https://localhost:8443/api/item/52?t=1791534395965",
+   "proto": "h2",
+   "fetchStart": 37.30000001192093,
+   "requestStart": 369.89999997615814,
+   "responseEnd": 707.5999999642372
+  },
+  {
+   "name": "https://localhost:8443/api/item/53?t=1791534395965",
+   "proto": "h2",
+   "fetchStart": 37.39999997615814,
+   "requestStart": 372.5,
+   "responseEnd": 571.5999999642372
+  },
+  {
+   "name": "https://localhost:8443/api/item/54?t=1791534395965",
+   "proto": "h2",
+   "fetchStart": 37.5,
+   "requestStart": 375.80000001192093,
+   "responseEnd": 607.5999999642372
+  },
+  {
+   "name": "https://localhost:8443/api/item/55?t=1791534395965",
+   "proto": "h2",
+   "fetchStart": 37.5,
+   "requestStart": 380.39999997615814,
+   "responseEnd": 614.1999999880791
+  },
+  {
+   "name": "https://localhost:8443/api/item/56?t=1791534395965",
+   "proto": "h2",
+   "fetchStart": 37.69999998807907,
+   "requestStart": 383.5999999642372,
+   "responseEnd": 618
+  },
+  {
+   "name": "https://localhost:8443/api/item/58?t=1791534395965",
+   "proto": "h2",
+   "fetchStart": 37.80000001192093,
+   "requestStart": 390.19999998807907,
+   "responseEnd": 567.1999999880791
+  },
+  {
+   "name": "https://localhost:8443/api/item/59?t=1791534395965",
+   "proto": "h2",
+   "fetchStart": 37.80000001192093,
+   "requestStart": 390.30000001192093,
+   "responseEnd": 571.8999999761581
+  },
+  {
+   "name": "https://localhost:8443/api/item/57?t=1791534395965",
+   "proto": "h2",
+   "fetchStart": 37.80000001192093,
+   "requestStart": 388.0999999642372,
+   "responseEnd": 761.5999999642372
+  }
+ ]
+}

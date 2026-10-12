@@ -1,0 +1,71 @@
+[
+ {
+  "mode": "direct",
+  "page_done_ms": 479.8,
+  "requests": 171,
+  "protocols": [
+   "h2"
+  ],
+  "distinct_connection_ids": 1,
+  "cert_issuer": [
+   "H2 Demo Origin CA"
+  ],
+  "stalled_sum_ms": 3462,
+  "stalled_median_ms": 21.2,
+  "stalled_max_ms": 32,
+  "queue+stall_sum_ms": 7430,
+  "queue+stall_median_ms": 46.3,
+  "queue+stall_max_ms": 53,
+  "rt_nextHopProtocol": [
+   "h2"
+  ],
+  "run": 1,
+  "netlog": "results/netlog-direct-run1.json"
+ },
+ {
+  "mode": "direct",
+  "page_done_ms": 493.3,
+  "requests": 171,
+  "protocols": [
+   "h2"
+  ],
+  "distinct_connection_ids": 1,
+  "cert_issuer": [
+   "H2 Demo Origin CA"
+  ],
+  "stalled_sum_ms": 4644,
+  "stalled_median_ms": 27.2,
+  "stalled_max_ms": 44,
+  "queue+stall_sum_ms": 9732,
+  "queue+stall_median_ms": 60.0,
+  "queue+stall_max_ms": 68,
+  "rt_nextHopProtocol": [
+   "h2"
+  ],
+  "run": 2,
+  "netlog": "results/netlog-direct-run2.json"
+ },
+ {
+  "mode": "direct",
+  "page_done_ms": 491,
+  "requests": 171,
+  "protocols": [
+   "h2"
+  ],
+  "distinct_connection_ids": 1,
+  "cert_issuer": [
+   "H2 Demo Origin CA"
+  ],
+  "stalled_sum_ms": 4553,
+  "stalled_median_ms": 26.8,
+  "stalled_max_ms": 41,
+  "queue+stall_sum_ms": 9050,
+  "queue+stall_median_ms": 55.4,
+  "queue+stall_max_ms": 62,
+  "rt_nextHopProtocol": [
+   "h2"
+  ],
+  "run": 3,
+  "netlog": "results/netlog-direct-run3.json"
+ }
+]
