@@ -1,0 +1,71 @@
+[
+ {
+  "mode": "proxy-h2",
+  "page_done_ms": 846.1,
+  "requests": 171,
+  "protocols": [
+   "h2"
+  ],
+  "distinct_connection_ids": 1,
+  "cert_issuer": [
+   "mitmproxy"
+  ],
+  "stalled_sum_ms": 20440,
+  "stalled_median_ms": 37.5,
+  "stalled_max_ms": 363,
+  "queue+stall_sum_ms": 25574,
+  "queue+stall_median_ms": 63.0,
+  "queue+stall_max_ms": 406,
+  "rt_nextHopProtocol": [
+   "h2"
+  ],
+  "run": 1,
+  "netlog": "results/netlog-proxy-h2-run1.json"
+ },
+ {
+  "mode": "proxy-h2",
+  "page_done_ms": 835.3,
+  "requests": 171,
+  "protocols": [
+   "h2"
+  ],
+  "distinct_connection_ids": 1,
+  "cert_issuer": [
+   "mitmproxy"
+  ],
+  "stalled_sum_ms": 21621,
+  "stalled_median_ms": 45.3,
+  "stalled_max_ms": 377,
+  "queue+stall_sum_ms": 27605,
+  "queue+stall_median_ms": 72.6,
+  "queue+stall_max_ms": 422,
+  "rt_nextHopProtocol": [
+   "h2"
+  ],
+  "run": 2,
+  "netlog": "results/netlog-proxy-h2-run2.json"
+ },
+ {
+  "mode": "proxy-h2",
+  "page_done_ms": 843.2,
+  "requests": 171,
+  "protocols": [
+   "h2"
+  ],
+  "distinct_connection_ids": 1,
+  "cert_issuer": [
+   "mitmproxy"
+  ],
+  "stalled_sum_ms": 21385,
+  "stalled_median_ms": 46.3,
+  "stalled_max_ms": 363,
+  "queue+stall_sum_ms": 27554,
+  "queue+stall_median_ms": 74.7,
+  "queue+stall_max_ms": 412,
+  "rt_nextHopProtocol": [
+   "h2"
+  ],
+  "run": 3,
+  "netlog": "results/netlog-proxy-h2-run3.json"
+ }
+]
