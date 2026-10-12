@@ -6,10 +6,12 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 MODE="${1:-h1}"; PORT="${PROXY_PORT:-8080}"
+# 127.0.0.1 for a local run. Docker sets LISTEN_HOST=0.0.0.0 so published ports reach the proxy.
+HOST="${LISTEN_HOST:-127.0.0.1}"
 case "$MODE" in h1) H2=false ;; h2) H2=true ;; *) echo "usage: $0 h1|h2"; exit 1 ;; esac
 scripts/gen-certs.sh >/dev/null
 mkdir -p certs/mitmproxy
-exec .venv/bin/mitmdump --listen-host 127.0.0.1 --listen-port "$PORT" \
+exec .venv/bin/mitmdump --listen-host "$HOST" --listen-port "$PORT" \
   --set confdir=certs/mitmproxy \
   --set http2="$H2" --set http3=false \
   --set ssl_verify_upstream_trusted_ca=certs/ca.pem \

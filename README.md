@@ -29,12 +29,18 @@ scripts/setup.sh        # one-time: .venv (mitmproxy, playwright, matplotlib) + 
 scripts/gen-certs.sh    # local "H2 Demo Origin CA" + localhost cert (certs/)
 scripts/run-origin.sh   # HTTPS origin on :8443 (h2 + http/1.1)
 scripts/run-proxy.sh    # mitmproxy explicit proxy: `h1` (on :8080) or `PROXY_PORT=8081 ... h2`
+scripts/run-interactive.sh  # origin + both proxies on 0.0.0.0, for a host browser (Docker)
 scripts/chrome.sh       # headed Chrome, throwaway profile, pointed at a mode (for DevTools)
 scripts/stop.sh         # kill origin/proxies
 origin/server.js
 measure/measure.py      # Playwright + CDP: per-request protocol, connection id, Queueing/Stalled; writes netlog
 measure/report.py       # results/comparison.md, results/netlog-facts.json, results/waterfall.png
-results/                # output of the last run (see below)
+results/                # output of the last local run (see below)
+Dockerfile              # Node 20 + Python venv + Playwright Chromium; certs generated at start
+docker-compose.yml      # benchmark by default; `interactive` publishes 8443/8080/8081
+docker-entrypoint.sh    # `benchmark` (default) or `interactive`
+requirements.txt        # pinned mitmproxy, playwright, matplotlib
+.github/workflows/docker.yml  # builds the image; does not push it
 ```
 
 ## Prerequisites (box or laptop)
@@ -44,6 +50,7 @@ results/                # output of the last run (see below)
   Set `CHROME=/path/to/chrome` to pick a specific binary. macOS Chrome is detected automatically by `scripts/chrome.sh`.
 - `scripts/setup.sh` creates `.venv` with mitmproxy, playwright and matplotlib. It uses `uv` if present, otherwise pip.
 - Ports 8443, 8080 and 8081 must be free.
+- Or skip the host toolchain and use the container in [Run it in Docker](#run-it-in-docker). The image has Node, Python, mitmproxy, Playwright and Chromium.
 
 ## Run it
 
@@ -87,6 +94,78 @@ the same way a corporate proxy uses its own CA. Pick one of these:
 
 Behind a real corporate proxy, you don't need any of this. Open a normal Chrome on the corporate network
 and follow "How to identify it".
+
+## Run it in Docker
+
+The image installs Node 20.20.2, a Python 3.13 venv from `requirements.txt` (mitmproxy, Playwright, matplotlib), and Playwright's Chromium. Private keys are created when the container starts (`scripts/gen-certs.sh` plus the mitmproxy CA) and are not stored in the image or in git. The default command is `./run-all.sh`, which writes `comparison.md`, `waterfall.png`, the request JSON, and the netlogs to `/app/results`.
+
+### Build
+
+```bash
+docker compose build
+# or: docker build -t h2-downgrade .
+```
+
+### Benchmark
+
+Mount a host directory on `/app/results`. Use a directory other than the repo's `results/` folder: that folder is the checked-in reference run, and `run-all.sh` deletes `/app/results/*` at the start of every benchmark.
+
+```bash
+mkdir -p docker-results
+docker compose run --rm demo
+# equivalent:
+# docker run --rm --init -v "$PWD/docker-results:/app/results" h2-downgrade
+```
+
+Then open `docker-results/comparison.md` and `docker-results/waterfall.png`. Netlogs are `docker-results/netlog-<mode>-run<N>.json`. The files are written as root inside the container. Pass a run count with `docker compose run --rm demo benchmark 1`.
+
+### Interactive (Chrome on the host)
+
+```bash
+docker compose run --rm --service-ports demo interactive
+# equivalent:
+# docker run --rm --init -p 8443:8443 -p 8080:8080 -p 8081:8081 h2-downgrade interactive
+```
+
+The origin and both proxies listen on all interfaces (`LISTEN_HOST=0.0.0.0`; the origin uses dual-stack `::` so `localhost` inside the container still connects). Published ports:
+
+| container | host | role |
+|---|---|---|
+| 8443 | 8443 | origin, `https://localhost:8443/` |
+| 8080 | 8080 | TLS-inspecting proxy, HTTP/1.1 only |
+| 8081 | 8081 | TLS-inspecting proxy, HTTP/2 enabled |
+
+The container prints copy-paste Chrome commands, including the SPKI hashes of the certs it just generated.
+
+**Certificates.** Same three choices as a local run. The PEMs live in the container at `/app/certs/ca.pem` (origin CA, CN "H2 Demo Origin CA") and `/app/certs/mitmproxy/mitmproxy-ca-cert.pem` (proxy CA, issuer CN "mitmproxy"):
+
+1. **Recommended:** `--ignore-certificate-errors-spki-list=<origin SPKI>,<mitmproxy CA SPKI>` with a throwaway `--user-data-dir`. Copy the list from the container's stdout. Chrome requires `--user-data-dir` for that flag. It changes no OS trust store.
+2. `--ignore-certificate-errors` with a throwaway `--user-data-dir`.
+3. Copy the PEMs out and import them, then remove them afterwards:
+
+```bash
+rm -rf certs
+docker cp <container>:/app/certs ./certs
+```
+
+`certs/` is gitignored. Those files have to be the running container's keys. Generating a new local CA will not match the proxy that is already running.
+
+**Point Chrome at the proxy, and keep the page on the origin.** Chrome does not send `localhost` or `127.0.0.1` through a proxy unless the implicit loopback bypass is turned off. The flag that does that is `--proxy-bypass-list=<-loopback>` (the `<` removes the loopback rule). The address bar stays `https://localhost:8443/` so the name matches the certificate (`DNS:localhost`, `IP:127.0.0.1`). `--proxy-server` is the published proxy on the host, `http://127.0.0.1:8080` or `http://127.0.0.1:8081`, not the page URL. Opening `http://127.0.0.1:8080/` in the address bar talks to mitmproxy itself and does not load the demo. With the bypass flag set, Chrome sends `CONNECT localhost:8443` to that proxy; inside the container the proxy dials the origin at `localhost:8443`. Omit both proxy flags for direct mode (host port 8443).
+
+```bash
+# downgrade (proxy-h1). Substitute the SPKI list printed by the container.
+google-chrome \
+  --user-data-dir=/tmp/h2demo-h1 \
+  --no-first-run --no-default-browser-check --disable-quic \
+  --ignore-certificate-errors-spki-list='ORIGIN_SPKI,MITM_SPKI' \
+  --proxy-server=http://127.0.0.1:8080 \
+  --proxy-bypass-list='<-loopback>' \
+  https://localhost:8443/
+```
+
+Use `--proxy-server=http://127.0.0.1:8081` for the HTTP/2 proxy. After `docker cp` of `certs/`, `scripts/chrome.sh direct`, `scripts/chrome.sh proxy-h1` and `scripts/chrome.sh proxy-h2` are the same flags.
+
+`.github/workflows/docker.yml` builds the image on pull requests and on pushes to `main`. It does not run the benchmark and does not push the image to a registry.
 
 ## Measured results (this box, headless Google Chrome 154, `./run-all.sh 3`)
 
