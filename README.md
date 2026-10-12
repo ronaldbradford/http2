@@ -1,5 +1,7 @@
 # HTTP/2 → HTTP/1.1 downgrade by a TLS-inspecting proxy: reproducible demo
 
+For the full write-up, see [BLOG.md](BLOG.md).
+
 **The problem:** a corporate TLS-inspecting proxy terminates TLS, re-encrypts with its own CA, and
 negotiates only `http/1.1` with the browser (no ALPN `h2`), even though the origin supports HTTP/2.
 Chrome allows at most **6 HTTP/1.1 connections per host** (per socket-pool group). On a page that makes
