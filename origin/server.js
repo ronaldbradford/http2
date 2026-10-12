@@ -77,4 +77,25 @@ const server = http2.createSecureServer({
   settings: { maxConcurrentStreams: 256 },
 }, handler);
 server.on('secureConnection', s => { if (process.env.VERBOSE) console.log('TLS conn', s.remoteAddress, s.remotePort, 'alpn=', s.alpnProtocol); });
-server.listen(PORT, () => console.log(`origin listening https://localhost:${PORT}/ (ALPN h2,http/1.1) N_JS=${N_JS} N_IMG=${N_IMG} N_API=${N_API} delay=${DMIN}-${DMAX}ms`));
+const onListen = () => console.log(`origin listening https://localhost:${PORT}/ (ALPN h2,http/1.1) N_JS=${N_JS} N_IMG=${N_IMG} N_API=${N_API} delay=${DMIN}-${DMAX}ms`);
+// Unset: Node's default (dual-stack when IPv6 exists). LISTEN_HOST=0.0.0.0 (the container)
+// binds :: with IPv4 mapped too, so published ports and in-container localhost both connect.
+const listenHost = process.env.LISTEN_HOST;
+if (listenHost === '0.0.0.0') {
+  const onV6Error = (err) => {
+    if (err.code === 'EAFNOSUPPORT' || err.code === 'EADDRNOTAVAIL') {
+      server.listen(PORT, '0.0.0.0', onListen);
+      return;
+    }
+    throw err;
+  };
+  server.once('error', onV6Error);
+  server.listen({ port: PORT, host: '::', ipv6Only: false }, () => {
+    server.removeListener('error', onV6Error);
+    onListen();
+  });
+} else if (listenHost) {
+  server.listen(PORT, listenHost, onListen);
+} else {
+  server.listen(PORT, onListen);
+}

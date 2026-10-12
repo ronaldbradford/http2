@@ -4,10 +4,10 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 if command -v uv >/dev/null; then
   [ -d .venv ] || uv venv -q .venv
-  uv pip install -q --python .venv/bin/python mitmproxy playwright matplotlib
+  uv pip install -q --python .venv/bin/python -r requirements.txt
 else
   [ -d .venv ] || python3 -m venv .venv
-  .venv/bin/pip install -q mitmproxy playwright matplotlib
+  .venv/bin/pip install -q -r requirements.txt
 fi
 scripts/gen-certs.sh
 # Generate the mitmproxy CA once so it can be trusted/inspected before first use

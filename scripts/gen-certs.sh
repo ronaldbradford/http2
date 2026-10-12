@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Generate a throwaway local CA + origin server cert (localhost / 127.0.0.1).
 set -euo pipefail
+mkdir -p "$(dirname "$0")/../certs"
 cd "$(dirname "$0")/../certs"
 [ -f origin.pem ] && { echo "certs exist (rm certs/* to regenerate)"; exit 0; }
 openssl req -x509 -newkey rsa:2048 -nodes -days 825 -subj "/CN=H2 Demo Origin CA" \

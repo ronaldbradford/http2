@@ -1,0 +1,17 @@
+# Default command is the headless benchmark (./run-all.sh), writing to ./docker-results.
+# Interactive mode (host browser): docker compose run --rm --service-ports demo interactive
+services:
+  demo:
+    build: .
+    image: h2-downgrade
+    init: true
+    shm_size: "1gb"
+    environment:
+      LISTEN_HOST: "0.0.0.0"
+    volumes:
+      # Keep this off the repo's results/ directory. That directory is the checked-in reference run.
+      - ${H2_RESULTS:-./docker-results}:/app/results
+    ports:
+      - "8443:8443"
+      - "8080:8080"
+      - "8081:8081"
